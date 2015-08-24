@@ -8,7 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    UILabel *_label;
+    int     a;
+    int     b;
+    float     result;
+    BOOL    flag;
+}
 
 
 @end
